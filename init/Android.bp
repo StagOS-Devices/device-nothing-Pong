@@ -31,6 +31,13 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "init.qti.kernel.rc",
+    src: "init.qti.kernel.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "init.target.rc",
     src: "init.target.rc",
     sub_dir: "init/hw",
@@ -63,6 +70,11 @@ sh_binary {
     vendor: true,
 }
 
+sh_binary {
+    name: "init.kernel.post_boot-taro.sh",
+    src: "init.kernel.post_boot-taro.sh",
+    vendor: true,
+}
 sh_binary {
     name: "init.qcom.early_boot.sh",
     src: "init.qcom.early_boot.sh",
