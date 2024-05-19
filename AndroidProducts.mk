@@ -6,8 +6,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lmodroid_Pong.mk
-
-COMMON_LUNCH_CHOICES := \
-    lmodroid_Pong-user \
-    lmodroid_Pong-userdebug \
-    lmodroid_Pong-eng
