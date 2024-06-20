@@ -38,11 +38,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := Nothing/Pong/Pong:12/SKQ1.230722.001/2404101247:user/release-keys
 
-# Build Configs
-BUILD_USERNAME := Miki
-BUILD_HOSTNAME := EvolutionXYZ
-
-# GMS
-TARGET_USES_MINI_GAPPS := true
-
-PRODUCT_GMS_CLIENTID_BASE := android-nothing
+# BLKI
+WITH_GMS := true
+TARGET_HAS_UDFPS := true
+TARGET_ENABLE_BLUR := true
+BLACKIRON_BUILDTYPE := Official
+BLACKIRON_MAINTAINER := AgBKartikey
