@@ -185,3 +185,4 @@ case "$chipfamily" in
 	echo "***WARNING***: Invalid chip family\n\t No postboot settings applied!!\n"
 	;;
 esac
+
