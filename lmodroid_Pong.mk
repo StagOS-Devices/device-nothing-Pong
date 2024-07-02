@@ -12,13 +12,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/nothing/Pong/device.mk)
 
 # Inherit some common Evolution XYZ stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_phone.mk)
 
 # Bootanimation Resolution.
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_Pong
+PRODUCT_NAME := lmodroid_Pong
 PRODUCT_DEVICE := Pong
 PRODUCT_MANUFACTURER := nothing
 PRODUCT_BRAND := Nothing
@@ -38,9 +38,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := Nothing/Pong/Pong:12/SKQ1.230722.001/2404101247:user/release-keys
 
-# BLKI
-WITH_GMS := true
+# FlagsI
 TARGET_HAS_UDFPS := true
 TARGET_ENABLE_BLUR := true
-BLACKIRON_BUILDTYPE := 
-BLACKIRON_MAINTAINER := AgBKartikey
