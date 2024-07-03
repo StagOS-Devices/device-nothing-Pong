@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lmodroid_Pong.mk
+    $(LOCAL_DIR)/stag_Pong.mk
