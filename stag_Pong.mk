@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/nothing/Pong/device.mk)
 
 # Inherit some common Stag stuff.
-$(call inherit-product, vendor/stag/config/common_full_phone.mk)
+$(call inherit-product, vendor/stag/main.mk)
 
 # Bootanimation Resolution.
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -41,3 +41,4 @@ BUILD_FINGERPRINT := Nothing/Pong/Pong:12/SKQ1.230722.001/2404101247:user/releas
 # FlagsI
 TARGET_HAS_UDFPS := true
 TARGET_ENABLE_BLUR := true
+WITH_GAPPS := true
